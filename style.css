@@ -1,0 +1,60 @@
+body {
+  background-color: #CCCCCC;
+  margin: 0;
+  height: 100vh; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.Main-square {
+  background-color: #301135;
+  background-image: linear-gradient(to bottom, #220E26, #621E6D);
+  width: 64.06rem;    
+  height: 68.75rem;      
+  border-radius: 0.62rem; 
+  margin: auto;
+}
+
+.Second-square {
+  background-color: #5A1C65;
+  background-image: linear-gradient(to bottom, #5A1C65, #301135);
+  border-radius: 0.62rem;
+  width: 59.08rem;     
+  height: 46.67rem;    
+  margin: 18.7rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.Voting-cards {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 3.5rem;        
+  padding: 1.2rem;      
+}
+
+.Card-border {
+  background: linear-gradient(to top, #342A89, #2638DB);
+  padding-left: 0.75rem;  
+  padding-right: 0.75rem;
+  border-top: 1.3rem solid #2638DB;   
+  border-bottom: 0.75rem solid #342A89;  
+  border-radius: 0.62rem;
+  display: inline-block;
+}
+
+.Card {
+  background-color: #3D5DEF;
+  background-image: linear-gradient(to bottom, #3D5DEF, #6CBFFD);
+  width: 14.37rem;       
+  height: 21.87rem;     
+  margin: auto;
+}
