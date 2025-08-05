@@ -1,15 +1,15 @@
 body {
   background-color: #CCCCCC;
   margin: 0;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
   min-height: 100vh;
-  padding: 40px 20px; 
+  padding: 2.5rem 1.25rem;
   box-sizing: border-box;
 }
 
@@ -17,12 +17,12 @@ body {
   background-color: #301135;
   background-image: linear-gradient(to bottom, #220E26, #621E6D);
   width: 100%;
-  max-width: 64rem; 
-  min-height: 100px; 
+  max-width: 64rem;
+  min-height: 6.25rem;
   border-radius: 0.62rem;
-  margin: 40px auto; 
-  padding: 40px; 
-  box-sizing: border-box; 
+  margin: 2.5rem auto;
+  padding: 2.5rem;
+  box-sizing: border-box;
 }
 
 .Second-square {
@@ -31,8 +31,8 @@ body {
   border-radius: 0.62rem;
   width: 100%;
   max-width: 59rem;
-  padding: 40px; 
-  margin: 40px auto 0 auto; 
+  padding: 2.5rem;
+  margin: 2.5rem auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,59 +42,62 @@ body {
 
 .Voting-cards {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
-  gap: 1.9rem;        
-  padding: 1.2rem;      
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.9rem;
+  padding: 1.2rem;
 }
 
 .Card-border {
   background: linear-gradient(to top, #342A89, #2638DB);
-  padding-left: 0.75rem;  
+  padding-left: 0.75rem;
   padding-right: 0.75rem;
-  border-top: 1.3rem solid #2638DB;   
-  border-bottom: 0.75rem solid #342A89;  
+  border-top: 1.15rem solid #2638DB;
+  border-bottom: 0.75rem solid #342A89;
   border-radius: 0.62rem;
-  display: inline-block
+  display: inline-block;
 }
 
 .Card {
   background-color: #3D5DEF;
   background-image: linear-gradient(to bottom, #3D5DEF, #6CBFFD);
-  width: 14.37rem;       
-  height: 21.87rem;     
+  width: 14.10rem;
+  height: 21.87rem;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.6rem;
+  box-sizing: border-box;
 }
 
-.Title{
+.Title {
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #FECD23;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 0.62rem;
 }
 
 .Main-text {
   color: white;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   line-height: 1.5rem;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-
 .Second-text {
   color: white;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.4rem;
+  font-size: 2.19rem;
   margin: auto;
-  font-size:35px;
 }
 
 .End-text {
@@ -102,6 +105,19 @@ body {
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 0.9rem;
-  margin: 15px auto auto;
+  margin: 0.94rem auto auto;
 }
 
+button {
+  background-color: #1D0C20;
+  width: 8.13rem;
+  height: 3.7rem;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.38rem;
+  font-size: 1.31rem;
+  align-self: center;
+  margin-top: auto;
+  border: none;
+}
