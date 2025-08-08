@@ -17,12 +17,12 @@ body {
   background-color: #301135;
   background-image: linear-gradient(to bottom, #220E26, #621E6D);
   width: 90%;
-  max-width: 59.8rem;
-  min-height: 5.1rem;
+  max-width: 57.4rem;
+  min-height: 5rem;
   border-radius: 0.62rem;
   margin: 0.2rem auto;
-  padding-top: 1.5rem;
-  padding-bottom: 1.2rem;
+  padding-top: 1.1rem;
+  padding-bottom: 0.8rem;
   box-sizing: border-box;
 }
 
@@ -31,8 +31,9 @@ body {
   background-image: linear-gradient(to bottom, #5A1C65, #301135);
   border-radius: 0.62rem;
   width: 100%;
-  max-width: 56rem;
-  padding: 1.5rem;
+  max-width: 53.5rem;
+  padding-top: 1.1rem;
+  padding-bottom: 0.3rem;
   margin: 2.5rem auto 0 auto;
   display: flex;
   flex-direction: column;
@@ -70,17 +71,19 @@ body {
   justify-content: start;
   padding-bottom: 0.6rem;
   align-items: center;
-  padding-top: 1px;
+  padding-top: 0.06rem;
   box-sizing: border-box;
 }
 
 .Title {
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 2.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.4rem;
   color: #FECD23;
-  font-weight: 400;
-  margin-top: 0;
+  font-weight: 330;
+  letter-spacing: 0.04rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.5rem;
 }
 
 .Main-text {
@@ -89,7 +92,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.29rem;
   line-height: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -98,11 +101,11 @@ body {
 .Second-text {
   color: white;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 2.19rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.9rem;
   margin: auto;
-  margin-bottom: 21px;
-  margin-top: 0;
+  margin-bottom: 1.3rem;
+  letter-spacing: 0.06rem;
 }
 
 .End-text {
@@ -140,27 +143,27 @@ button {
   height: 2.6rem;
   padding: 0.5rem;
   font-size: 1.2rem;
-  border-radius: 5px;
+  border-radius: 0.31rem;
   border: 0;
   margin: auto;
   box-sizing: border-box;
   margin-bottom: 1.4rem;
   margin-top: 0.9rem;
-}  
+}
 
 .Icons img {
-  width: 170px;   
-  height: 180px; 
+  width: 10.6rem;
+  height: 11.3rem;
   display: block;
   margin: auto;
 }
 
-.Type-game{
+.Type-game {
   color: white;
-  font-size: 29px;
+  font-size: 1.81rem;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.06rem;
   font-weight: 500;
 }
 
@@ -185,19 +188,19 @@ button {
 
   .Second-text {
     font-size: 1.5rem;
-    margin-top: 10px;
-    line-height: 25px;
+    margin-top: 0.6rem;
+    line-height: 1.56rem;
     font-weight: 375;
   }
 
   .Main-text {
     font-size: 0.85rem;
-    line-height: 17px;
+    line-height: 1.06rem;
     text-align: center;
     margin-bottom: 0;
     margin-top: 0.5rem;
     font-weight: 370;
-    letter-spacing: 0.05px;
+    letter-spacing: 0;
   }
 
   .form-input {
@@ -205,9 +208,11 @@ button {
     font-size: 1rem;
     margin-bottom: 0.3rem;
   }
-  .Voting-cards{
-    gap: 18px;
+
+  .Voting-cards {
+    gap: 1.1rem;
   }
+
   .Card {
     width: 12rem;
     height: 19rem;
@@ -215,8 +220,8 @@ button {
   }
 
   .Icons img {
-    width: 130px;
-    height: 140px;
+    width: 8.1rem;
+    height: 8.8rem;
   }
 
   button {
@@ -224,11 +229,10 @@ button {
     height: 3.3rem;
     font-size: 1.1rem;
   }
-  .Type-game{
-    font-size: 22px;
+
+  .Type-game {
+    font-size: 1.38rem;
     font-weight: 400;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.03rem;
   }
 }
-
-
